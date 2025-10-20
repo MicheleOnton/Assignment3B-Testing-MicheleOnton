@@ -1,4 +1,4 @@
-#Checkers Move Generator
+# Checkers Move Generator
 
 This program represents a move generator for the checkers game. Checkers is a two player game where each player's goal is to capture the other player's pieces.
 
@@ -10,7 +10,7 @@ In our program, red moves down (from row 1-8), and black moves up (from row 8-1)
 
 The goal of this program is to get all possible moves for a piece. This component can then be integrated into a full checkers game
 
-#Usage
+# Usage
 Compile the program and run using the following usage:
 java Main <filename> <piece> <black_turn>
 
@@ -20,10 +20,10 @@ piece represents the square of a piece you want to move in the format "A1", wher
 
 black_turn represents whether the turn is black or red, where "1" represents black's turn, and "0" represents red's turn.
 
-#Assumptions
+# Assumptions
 We assume the file will be perfectly formatted, as in a full checkers game program, this component would use the previous gamestate as input, which should be correctly formatted. The file will fail to be parsed if it is not perfectly formatted. Additionally, the arguments the user inputs do not have error checking. Invalid user input not being handled should not be considered a bug for our program, as the way the values will be input in a real checkers game program will be different.
 
-#Examples
+# Examples
 The examples folder contains a few examples that can be used for testing purposes
 
 Here is an example runthrough of the program:
